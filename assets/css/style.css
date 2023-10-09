@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
 
 :root{
---color: #800; 
+--color: #333; 
 }
 
 body {
@@ -10,18 +10,18 @@ body {
 
 .container {
   text-align: center;
-  color:var(--color);
+  color: var(--color);
   width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(шер.jpg);
+  background-image: url(https://images.unsplash.com/photo-1519120944692-1a8d8cfc107f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80);
   background-size: cover;
   background-position: center;
   
-/*  this is where the magic happens:  */
+/*  магия  */
   background-attachment: fixed;
 }
 
@@ -44,7 +44,7 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 0.3em;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: .5px;
   font-size: .875rem;
 }
@@ -57,13 +57,13 @@ a {
 }
 
 .second {
-  background-image:url(шерлок.jpg);
+  background-image:url(https://images.unsplash.com/photo-1514496959998-c01c40915c5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
   background-attachment: fixed;
   height: 1200px;
 }
 
 h3 {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 1.6rem;
   margin-top: 1em;
 }
@@ -74,7 +74,7 @@ h3 {
 
 .item {
   display: flex;
-  max-width: 320px;
+  max-width: 3200px;
   background-color: white;;
   flex-direction: column;
   align-items: center;
@@ -85,8 +85,8 @@ h3 {
 }
 
 .img {
-  width: 90%;
-  height: 2000px;
+  width: 100%;
+  height: 200px;
   background-color: lightgrey;
   background-size: cover;
   background-position: center;
@@ -95,10 +95,16 @@ h3 {
 }
 
 .img-first {
-  background-image: url(бесстыжие.jpg);
+  background-image: url(../images/бесстыжие.jpg);
 }
 
+.img-second {
+  background-image: url(../images/энн.jpg);
+}
 
+.img-third {
+  background-image: url(../images/шерлок.jpg);
+}
 
 .second {
   flex-direction: row;

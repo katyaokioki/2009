@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
 
 :root{
---color: #CC33FF; 
+--color: #575; 
 }
 
 body {
@@ -10,14 +10,14 @@ body {
 
 .container {
   text-align: center;
-  color:  var(--color);
+  color: var(--color);
   width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(бес.jpg);
+  background-image: url(../images/трава.png);
   background-size: cover;
   background-position: center;
   
@@ -57,7 +57,7 @@ a {
 }
 
 .second {
-  background-image:url(бесстыжие.jpg);
+  background-image:url(../images/энн.jpg);
   background-attachment: fixed;
   height: 1200px;
 }
@@ -95,7 +95,7 @@ h3 {
 }
 
 .img-first {
-  background-image: url(бесстыжие.jpg);
+  background-image: url(../images/бесстыжие.jpg);
 }
 
 
